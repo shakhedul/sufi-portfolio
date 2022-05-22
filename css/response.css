@@ -1,0 +1,117 @@
+@media screen and (max-width:768px){
+    .container, .contact-form{
+      grid-template-columns: repeat(1,1fr);
+    }
+    .title-area{
+      /* margin-top: 5rem; */
+      width: 600px;
+      margin: auto 2rem;
+    }
+   .photo-area{
+     width: 100%;
+     margin: 0 0rem 0 -2rem;
+     grid-row-start: 1;
+   } 
+   .about-photo-area img {
+    margin: 2rem 0 8em 3rem;
+  }
+  .contact-form .right-section{
+    margin: 3rem 0 0 2rem;
+  }
+  .footer-content ul, .icon-footer {
+    display: block;
+  }
+  .icon-footer{
+    margin-top: 5rem;
+  }
+  .footer-content img {
+    width: 4em;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width:580px){
+  .animate-first-text{
+    font-size: 2.5rem;
+  }
+  .cd-words-wrapper{
+    font-size: 2.5rem;
+  }
+  .container, .contact-form{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .title-area{
+    margin-top: 7rem;
+    width: 100%;
+    margin: auto 1.5rem;
+  }
+  .photo-area img{
+   margin: 4em 3rem;
+   float: revert;
+  } 
+  .about-photo-area img {
+    margin: 2rem 0 8em 3rem;
+  }
+  .contact-form .right-section{
+    margin: 3rem 0 0 2rem;
+  }
+   .icon-footer{
+    margin-top: 5rem;
+  }
+  .footer-content img {
+    width: 4em;
+    margin-top: 3rem;
+  }
+  .peralax-container{
+    background-size: cover;
+  }
+  .icon-bar{
+    display: none;
+  }
+
+  @media screen and (max-width:400px){
+    .title-area{
+      margin-left: 1rem;
+    }
+  }
+
+/* //design for responsive purpose */
+}
+
+@media screen and (max-width:860px) {
+  section.feature-container .card-wrapper,
+  section.portfolio-container .photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+  }
+  .service-title{
+    text-align: center;
+  }
+  .photo-gallery{
+    margin-top: 6rem;
+  }
+  .card{
+    text-align: center;
+  }
+}
+@media screen and (max-width:600px) {
+  section.feature-container .card-wrapper,
+  section.portfolio-container .photo-gallery{
+    display: grid;
+    grid-template-columns: repeat(1,6fr);
+  }
+  .service-title{
+    text-align: center;
+  }
+  .card-wrapper{
+    /* margin: 6rem 0 4rem; */
+    margin-top:6rem;
+    margin-right: 3.6rem;
+  }
+  .card{
+    width: 85%;
+    margin:  1rem;
+    text-align: center;
+  }
+}
+
